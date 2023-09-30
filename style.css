@@ -1,0 +1,114 @@
+html,body {
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Roboto Light", sans-serif;
+}
+.pageAccueil{
+    background-image: url("HERO.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    filter: grayscale(70%);
+}
+.navBar{
+    height:  10%;
+    background-color: rgba(0, 0, 0, 0.45);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.whiteChar{
+    color: white;
+    font-size: 1em;
+    font-family: "Roboto Light",sans-serif;
+}
+
+.whiteChar2{
+    color: white;
+    font-size: 1em;
+    font-family: "Ubuntu",sans-serif;
+}
+
+.title{
+    font-size: 1.5em;
+}
+
+.subtitle{
+    font-size: 1.3em;
+}
+.lettreBleue{
+     color: #00cdff;
+     font-weight: bolder;
+     font-size: 1em;
+     font-family: "Roboto Light",sans-serif;
+ }
+.settings{
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.deco{
+    text-decoration-line: underline;
+}
+.margSet{
+    margin-right: 0.3vw;
+}
+.textFrame{
+    padding: 8px;
+    padding-right: 20px;
+    padding-left: 20px ;
+    border: #00cdff 4px solid;
+}
+.header{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.punchline{
+    color: white;
+    font-size: 2em;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 2px;
+}
+.capital{
+    text-transform: uppercase;
+}
+.duBas{
+    margin-top: 20px;
+}
+.grandeBoitebleue{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #00cdff;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-right: 2vw;
+    padding-left: 10vw;
+}
+
+.navBar2{
+    margin-top: 12vh;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10vw;
+
+}
+.catégories{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bluePrint{
+    margin : 10px;
+    width: fit-content;
+}
+
