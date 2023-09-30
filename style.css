@@ -4,6 +4,8 @@ html,body {
     overflow-x: hidden;
     font-family: "Roboto Light", sans-serif;
 }
+
+/*Step Board*/
 .pageAccueil{
     background-image: url("HERO.jpg");
     background-repeat: no-repeat;
@@ -13,6 +15,8 @@ html,body {
     width: 100vw;
     filter: grayscale(70%);
 }
+.grayPic{
+}
 .navBar{
     height:  10%;
     background-color: rgba(0, 0, 0, 0.45);
@@ -21,48 +25,6 @@ html,body {
     align-items: center;
     padding-left: 10vw;
     padding-right: 10vw;
-}
-.whiteChar{
-    color: white;
-    font-size: 1em;
-    font-family: "Roboto Light",sans-serif;
-}
-
-.whiteChar2{
-    color: white;
-    font-size: 1em;
-    font-family: "Ubuntu",sans-serif;
-}
-
-.title{
-    font-size: 1.5em;
-}
-
-.subtitle{
-    font-size: 1.3em;
-}
-.lettreBleue{
-     color: #00cdff;
-     font-weight: bolder;
-     font-size: 1em;
-     font-family: "Roboto Light",sans-serif;
- }
-.settings{
-    text-decoration: none;
-    font-weight: bolder;
-}
-
-.deco{
-    text-decoration-line: underline;
-}
-.margSet{
-    margin-right: 0.3vw;
-}
-.textFrame{
-    padding: 8px;
-    padding-right: 20px;
-    padding-left: 20px ;
-    border: #00cdff 4px solid;
 }
 .header{
     height: 90%;
@@ -77,30 +39,205 @@ html,body {
     background-color: rgba(0, 0, 0, 0.2);
     padding: 2px;
 }
+.grandeBoitebleue{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #00cdff;
+    padding-bottom: 2%;
+    padding-top: 5%;
+    padding-right: 5vw;
+    padding-left: 9vw;
+}
+.grandeBoiteblanche1{
+    background-color: white;
+    width: 84vw;
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.navBar2{
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navBar3{
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.one{
+    background-image: url("images/portfolio/1.png");
+}
+.two{
+    background-image: url("images/portfolio/2.png");
+}
+.three{
+    background-image: url("images/portfolio/3.png");
+}
+.four{
+    background-image: url("images/portfolio/4.png");
+}
+.five{
+    background-image: url("images/portfolio/5.png");
+}
+.six{
+    background-image: url("images/portfolio/6.png");
+}
+.seven{
+    background-image: url("images/portfolio/7.png");
+}
+.eight{
+    background-image: url("images/portfolio/8.png");
+}
+.grandeBoitegrise{
+    background-color: #515F67;
+    padding-bottom: 5%;
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-top: 6%;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.visitMe{
+    font-weight: bolder;
+    text-decoration: None;
+    font-size: 1.2em;
+    padding-top: 12px ;
+    padding-right: 48px;
+    padding-bottom: 12px;
+    padding-left: 48px;
+    border: #353F46 4px solid;
+    color: #353F46;
+    font-family: "Roboto Light",sans-serif;
+}
+.grandeBoitebleue1{
+    background-color: #00cdff;
+    width: 86vw;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+.grandeBoitebleue2{
+    background-color:#8CB3D7;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 9%;
+    padding-right: 9%;
+    width: 84vw;
+}
+.grandeBoiteblanche2{
+    background-color: white;
+    width: 86vw;
+    height: 30vh;
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-top: 5vh;
+}
+.grandeBoitebleue3{
+    background-color: #8CB3D7;
+    width: 101vw;
+}
+.form{
+    height: 90vh;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-right: 9%;
+    padding-left: 9%;
+
+}
+.name{
+    border : #A7C0D9 2px solid;
+    border-radius: 4px;
+    background-color: #8CB3D7;
+    padding-bottom: 6px;
+    padding-top: 18px;
+    padding-left: 5px;
+    padding-right: 27vw ;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.navBar4{
+    background-color: rgba(0, 0, 0, 0.36);
+    width: 77vw;
+    padding-right: 15vw;
+    padding-left: 10vw;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bouton{
+    font-weight: bolder;
+    font-size: 1.1em;
+    background-color: #0FCAEB;
+    border-radius: 4px;
+    border : none;
+    width: 20vw;
+    height: 9vh;
+}
+
+/*Settings Board*/
+.settings{
+    text-decoration: none;
+    font-weight: bolder;
+}
+.space{
+    margin-right: 90px;
+}
+.whiteChar{
+     color: white;
+     font-size: 1em;
+     font-family: "Roboto Light",sans-serif;
+}
+.whiteChar2{
+    color: white;
+    font-size: 1em;
+    font-family: "Ubuntu",sans-serif;
+}
+.blackChar{
+    color: black;
+    font-size: 1em;
+    font-family: "Roboto Light",sans-serif;
+}
+.title{
+    font-size: 1.5em;
+}
+.subtitle{
+    font-size: 1.3em;
+    margin-bottom: 15px;
+}
+.lettreBleue{
+     color: #00cdff;
+     font-weight: bolder;
+     font-size: 1em;
+     font-family: "Roboto Light",sans-serif;
+}
 .capital{
     text-transform: uppercase;
 }
 .duBas{
     margin-top: 20px;
 }
-.grandeBoitebleue{
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: #00cdff;
-    padding-bottom: 5%;
-    padding-top: 5%;
-    padding-right: 2vw;
-    padding-left: 10vw;
+.deco{
+    text-decoration-line: underline;
 }
-
-.navBar2{
-    margin-top: 12vh;
-    display: flex;
-    justify-content: space-between;
-    padding-right: 10vw;
-
+.textFrame{
+    padding: 8px;
+    padding-right: 20px;
+    padding-left: 20px ;
+    border: #00cdff 4px solid;
+}
+.margSet{
+    margin-right: 0.3vw;
 }
 .catégories{
     display: flex;
@@ -108,7 +245,97 @@ html,body {
     justify-content: space-between;
 }
 .bluePrint{
-    margin : 10px;
+    margin-top: 25%;
+    margin-bottom: 10px;
     width: fit-content;
 }
-
+.bluePrint1{
+    width: fit-content;
+    margin : 4px;
+    padding-right: 10vw;
+}
+.bluePrint2{
+    margin-bottom: 10px;
+    padding: 15px;
+}
+.margSet2{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.margSet3{
+    margin-right: 15px;
+    margin-left: 10px;
+}
+.pic{
+    height: 26.2vh;
+    width: 18.5vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 16px;
+    margin-top:17px;
+}
+.pictures{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.droite{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 39vw;
+}
+.videoText{
+    margin-top: 8%;
+    width: 37vw;
+    margin-bottom: 8%;
+}
+.video{
+    margin-left: 40vw;
+    margin-top: -60vh;
+}
+.twitter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.walterWhite{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: -50px;
+    height: 30%;
+}
+.blueName{
+    color: #00cdff;
+    font-weight: bolder;
+    font-family: "Roboto Light",sans-serif;
+}
+.separation{
+    border-right: #7c8080   3px solid;
+    padding-right: 23px;
+}
+.greyChar{
+    font-family: "Roboto Light",sans-serif;
+    color: #7c8080;
+    border-inline: black;}
+.johnDoe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.text{
+    width: 41vw;
+}
+.text1{
+    width: 30vw;
+}
+.logo{
+margin-top: -125px;
+}
+.field{
+    height: 22vh;
+    width: 54vw;
+}
